@@ -1,0 +1,84 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    width: 1728px;
+    height: 1117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.signup-container {
+    width: 1181px;
+    height: 712px;
+    position: absolute;
+    top: 154px;
+    left: 198px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    background: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: #ccc;
+}
